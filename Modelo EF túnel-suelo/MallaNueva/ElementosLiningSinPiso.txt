@@ -1,0 +1,92 @@
+element 9_4_QuadUP 8289 0 11193 11291 11246 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8290 0 11291 11421 11361 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8291 0 11421 11537 11479 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8292 0 11537 11676 11607 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8293 0 11676 11817 11734 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8294 0 11817 11977 11893 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8295 0 11977 12142 12063 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8296 0 12142 12319 12227 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8297 0 12319 12501 12402 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8298 0 12501 12698 12591 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8299 0 12698 12897 12791 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8300 0 12897 13122 13015 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8301 0 13122 13360 13250 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8302 0 13360 13621 13481 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8303 0 13621 13864 13744 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8304 0 13864 14079 13976 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8305 0 14079 14327 14208 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8306 0 14327 14593 14461 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8307 0 22119 22163 22139 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8308 0 22163 22195 22182 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8309 0 22195 22218 22210 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8310 0 22218 22233 22224 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8311 0 22233 22244 22237 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8312 0 22244 22241 22246 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8313 0 22241 22231 22235 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8314 0 22231 22217 22222 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8315 0 22217 22198 22209 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8316 0 22198 22178 22187 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8317 0 22178 22137 22159 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8318 0 22137 22093 22121 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8319 0 22093 22034 22066 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8320 0 22034 21967 22006 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8321 0 21967 21890 21924 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8322 0 21890 21786 21828 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8323 0 21786 21684 21743 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8324 0 21684 21574 21633 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8325 0 14593 14929 14754 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8326 0 14929 15252 15098 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8327 0 15252 15599 15426 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8328 0 15599 15924 15764 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8329 0 15924 16249 16090 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8330 0 16249 16575 16416 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8331 0 16575 16887 16729 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8332 0 16887 17213 17056 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8333 0 17213 17526 17382 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8334 0 17526 17845 17685 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8335 0 17845 18144 17992 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8336 0 18144 18427 18282 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8337 0 18427 18705 18565 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8338 0 18705 18966 18837 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8339 0 18966 19229 19099 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8340 0 19229 19477 19352 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8341 0 19477 19715 19586 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8342 0 19715 19937 19830 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8343 0 19937 20141 20039 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8344 0 20141 20354 20255 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8345 0 20354 20550 20450 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8346 0 20550 20722 20631 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8347 0 20722 20902 20811 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8348 0 20902 21065 20985 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8349 0 21065 21218 21147 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8350 0 21218 21365 21285 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8351 0 21365 21499 21435 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8352 0 21499 21618 21564 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8353 0 21618 21728 21675 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8354 0 21728 21823 21772 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8355 0 21823 21919 21871 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8356 0 21919 21998 21959 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8357 0 21998 22062 22030 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8358 0 22062 22119 22090 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8359 0 11193 10924 11053 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8360 0 10924 10732 10821 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8361 0 10732 10622 10668 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8362 0 21574 21166 21378 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8363 0 21166 20662 20929 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8364 0 20662 20082 20383 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8365 0 11193 11076 11138 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8366 0 11076 10937 10996 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8367 0 10937 10822 10881 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8368 0 10822 10698 10755 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8369 0 10698 10587 10641 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8370 0 10587 10478 10534 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8371 0 10478 10374 10426 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8372 0 20519 20663 20594 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8373 0 20663 20814 20733 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8374 0 20814 20971 20893 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8375 0 20971 21120 21051 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8376 0 21120 21269 21192 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8377 0 21269 21423 21348 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+element 9_4_QuadUP 8378 0 21423 21574 21500 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8379 0 10374 10622 10496 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
+# element 9_4_QuadUP 8380 0 20519 20082 20307 0 0 0 0 0 $thick2 2 $uBulk2 1.0 1.0 1.0 $xWgt2 $yWgt2
