@@ -25,21 +25,6 @@ fix $nnodos 0 1 0;
 
 # Materiales
 
-# Concrete06 
-
-set matTag 3
-set fc -60
-set e0 -0.0035
-set n	2.1
-set k	1
-set alpha1	0.32
-set fcr	5
-set ecr	0.0002	
-set b	0.5
-set alpha2	0.08
-
-uniaxialMaterial Concrete06 $matTag $fc $e0 $n $k $alpha1 $fcr $ecr $b $alpha2
-
 # ConcreteCM (Chang Mander) 
 set matTag 4
 set fpcc	-60
@@ -101,21 +86,6 @@ set cover 20
 set y1 [expr $colDepth/2.0]
 set z1 [expr $colWidth/2.0]
 
-
-section Fiber 3 {
-	# Hormigón Concrete06
-	patch rect 3 $numSubdivY $numSubdivZ [expr -$y1] [expr -$z1] [expr $y1] [expr $z1]
-	# Acero ReinforcingSteel AT56-50H
-	# malla de arriba
-	layer straight 5 4 $As [expr $y1-$cover] [expr $z1-$cover] [expr $y1-$cover] [expr $cover-$z1]
-	# malla de abajo 
-	layer straight 5 4 $As [expr $cover-$y1] [expr $z1-$cover] [expr $cover-$y1] [expr $cover-$z1]
-	# barras del 22
-	#layer straight 9 2 $As2 [expr $cover+30-$y1] [expr -$cover] [expr $cover+30-$y1] [expr +$cover]  
-	#barra del 28
-	#fiber [expr $y1-$cover-15] 0 $As3 9
-}
-
 section Fiber 4 {
 	patch rect 4 $numSubdivY $numSubdivZ [expr -$y1] [expr -$z1] [expr $y1] [expr $z1]
 	# Acero ReinforcingSteel AT56-50H
@@ -130,32 +100,31 @@ section Fiber 4 {
 }
 
 
-
 set A [expr $colDepth*$colWidth]
 set I [expr $colDepth*$colDepth*$colDepth*$colWidth/12]
 # Elementos
 for {set i 1} {$i <= $nele} {incr i} {
 	set j [expr $i+1]; #nodo siguiente
 	# Elementos
-	#set label2	[expr $i+$nele]; # elementos en paralelo
 	#element nonlinearBeamColumn $i $i $j $numIntgrPts 4 $transfTag
-	#element nonlinearBeamColumn $label2 $i $j $numIntgrPts 4 $transfTag 
 	#element forceBeamColumn $i $i $j $transfTag "HingeRadau 4 [expr 1*$colDepth] 4 [expr 1*$colDepth] 4"
-	#element forceBeamColumn $label2 $i $j $transfTag "HingeRadau 4 $colDepth 4 $colDepth 4"
 	#element dispBeamColumn $i $i $j $numIntgrPts 4 $transfTag
-	#element dispBeamColumn $label2 [expr $i+$nnodos] [expr $j+$nnodos] $numIntgrPts 4 $transfTag
 	element beamWithHinges $i $i $j 4 [expr 1.0*$colDepth] 4 [expr 1.0*$colDepth] $Ec $A $I $transfTag
 	
 }
-#element forceBeamColumn 1 1 2 $transfTag "HingeRadau 4 [expr 1*$colDepth] 4 [expr 1*$colDepth] 4"
-#element forceBeamColumn 2 2 3 $transfTag "HingeRadau 4 [expr 1*$colDepth] 4 [expr 1*$colDepth] 4"
 
+set lcacho 300; ## mm
+node 1001 [expr -$lcacho] 0.0 ;
+node 1002 [expr $L+$lcacho] 0.0;
 
+set Einf 2000000;
+set Ainf 1000000; 
+set Izinf 1000000000000;
+
+element elasticBeamColumn 1001 1001 1 $Ainf $Einf $Izinf $transfTag
+element elasticBeamColumn 1002 $nnodos 1002 $Ainf $Einf $Izinf $transfTag
 
 # Recorders
-
-#region 1 -eleRange 1 $nele
-#region 1 -eleRange [expr 1+$nele] [expr 2*$nele]
 
 set nodocentral [expr ($nnodos+1)/2]
 
@@ -167,8 +136,8 @@ set Cargaaxial 200000; # Newton
 
 pattern Plain 1 Constant {
 	#load $nodocentral 0.0 -1.0 0.0
-	load 1 $Cargaaxial 0.0 0.0
-	load $nnodos [expr -$Cargaaxial] 0.0 0.0
+	load 1001 $Cargaaxial 0.0 0.0
+	load 1002 [expr -$Cargaaxial] 0.0 0.0
 }
 
 
@@ -190,6 +159,11 @@ integrator LoadControl 1.0
 analysis Static
  
 analyze 1 
+
+ 
+set nanalize 250
+
+set stepanalisis [expr -60.0/$nanalize]
  
  
 pattern Plain 2 Linear {
@@ -209,13 +183,13 @@ numberer Plain
 #system ProfileSPD
 #system SparseGEN
 #system UmfPack 
-integrator DisplacementControl  $nodocentral  2 -0.1
+integrator DisplacementControl  $nodocentral  2 $stepanalisis
 #integrator DisplacementControl 5 3 -0.0001; # displacement control algorithm seking constant increment of 0.1 at node 1 at 2'nd dof.
 #analysis Transient 
 analysis Static
  
  
-analyze 550
+analyze $nanalize
 
 
 puts "OK"

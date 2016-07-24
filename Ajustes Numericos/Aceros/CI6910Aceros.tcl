@@ -50,7 +50,7 @@ set esh	[expr 1.01*$fy/$Es]
 set eult	0.04
 set meult	[expr -$eult]
 
-uniaxialMaterial ReinforcingSteel $matTag $fy $fu $Es $Esh $esh $eult -IsoHard	4.3 0.01
+uniaxialMaterial ReinforcingSteel $matTag $fy $fu $Es $Esh $esh $eult 
 
 uniaxialMaterial MinMax 4 44 -min $meult -max $eult
 
