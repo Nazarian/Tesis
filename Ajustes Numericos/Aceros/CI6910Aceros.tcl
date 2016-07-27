@@ -47,7 +47,7 @@ set fu	710
 set Es	200000
 set Esh	150000
 set esh	[expr 1.01*$fy/$Es]
-set eult	0.04
+set eult	0.02
 set meult	[expr -$eult]
 
 uniaxialMaterial ReinforcingSteel $matTag $fy $fu $Es $Esh $esh $eult 
@@ -98,7 +98,7 @@ set fu	680
 set Es	200000
 set Esh	20000
 set esh	[expr 1.2*$fy/$Es]
-set eult	0.07
+set eult	0.09
 set meult	[expr -$eult]
 
 uniaxialMaterial ReinforcingSteel $matTag $fy $fu $Es $Esh $esh $eult -IsoHard	3.0 0.01
@@ -143,8 +143,8 @@ pattern Plain 1 Linear {
 	load 2 1.0 0.0
 }
 
-recorder Element -file ElementosfuerzasAceros.out -time -ele 1 2 4 5 6 7 9 10 axialForce
-recorder Element -file ElementosdeformacionesAceros.out -time -ele 1 2 4 5 6 7 9 10 deformations
+recorder Element -file ElementosfuerzasAceros.out -closeOnWrite -time -ele 1 2 4 5 6 7 9 10 axialForce
+recorder Element -file ElementosdeformacionesAceros.out -closeOnWrite -time -ele 1 2 4 5 6 7 9 10 deformations
 
 
 constraints Plain
@@ -160,14 +160,14 @@ system FullGeneral
 #set nw2 [expr pow($nw+0.5, 2)/4]
 #integrator Newmark $nw $nw2
 #integrator LoadControl 1;
-integrator DisplacementControl  2  1 0.0001
+integrator DisplacementControl  2  1 0.0003
 #integrator DisplacementControl 5 3 -0.0001; # displacement control algorithm seking constant increment of 0.1 at node 1 at 2'nd dof.
 #analysis Transient 
 analysis Static
  
 #analyze 1 
  
-analyze 180
+analyze 300
 
 
 

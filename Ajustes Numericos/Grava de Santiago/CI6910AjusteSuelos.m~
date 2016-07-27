@@ -1,0 +1,36 @@
+
+Tension60=importdata('Elementostress1.out');
+Deformacion60=importdata('Elementostrain1.out');
+Fuerzas60 = importdata('NodosReac.out');
+Desplazamientos60 = importdata('NodosDisp.out');
+
+%figure(1)
+%plot(-Deformacion(:,4)*100,(-Tension(:,4)/1000--Tension(:,3)/1000))
+%ylabel('q = (kPa)')
+%xlabel('\epsilon_{1} (%)')
+%hold on
+%xlim([0 20])
+
+figure(2)
+plot(-Deformacion60(:,4)*100, ((Fuerzas60(:,4)+Fuerzas60(:,7)+Fuerzas60(:,10)+Fuerzas60(:,13))-(Fuerzas60(:,3)+Fuerzas60(:,6)+Fuerzas60(:,9)+Fuerzas60(:,12)))/1000 )
+ylabel('q = \sigma_{1}-\sigma_{3} (kPa)')
+xlabel('\epsilon_{1} (%)')
+hold on
+legend('60 kPa', '')
+set(gca, 'FontSize', 18, 'FontName','Times New Roman')
+xlim([0 5])
+ylim([0 3000])
+grid on
+
+figure(3)
+
+plot(((Fuerzas(:,4)+Fuerzas(:,7)+Fuerzas(:,10)+Fuerzas(:,13))+(Fuerzas(:,3)+Fuerzas(:,6)+Fuerzas(:,9)+Fuerzas(:,12)))/2000, ((Fuerzas(:,4)+Fuerzas(:,7)+Fuerzas(:,10)+Fuerzas(:,13))-(Fuerzas(:,3)+Fuerzas(:,6)+Fuerzas(:,9)+Fuerzas(:,12)))/2000 )
+ylabel('q = (\sigma_{1}-\sigma_{3})/2 (kPa)')
+xlabel('p=(\sigma_{1}+\sigma_{3})/2 (kPa)')
+hold on
+%figure(3)
+%plot([22 44 61 83],[3.2 5 6 8])
+
+figure(4)
+
+plot([0; -Deformacion(:,4)*100], [0; (Deformacion(:,4)+Deformacion(:,2)+Deformacion(:,3))*100])
